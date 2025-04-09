@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 @WebServlet("/lesson01/quiz07") // Quiz07.html에 있는 submit을 누르자 마자 /lesson01/quiz07여기로 연결 된다는 뜻!
-public class Quiz07 extends HttpServlet {
+public class GetMethodQuiz07 extends HttpServlet {
 	@Override
 	public void doGet(HttpServletRequest request,
 			HttpServletResponse response) throws IOException {

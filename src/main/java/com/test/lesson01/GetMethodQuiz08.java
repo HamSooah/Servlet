@@ -13,7 +13,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 @WebServlet("/lesson01/quiz08")
-public class Quiz08 extends HttpServlet {
+public class GetMethodQuiz08 extends HttpServlet {
 	@Override
 	public void doGet(HttpServletRequest request,
 			HttpServletResponse response) throws IOException {

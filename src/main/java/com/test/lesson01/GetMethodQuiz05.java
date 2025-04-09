@@ -9,7 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 @WebServlet("/lesson01/quiz05")
-public class quiz05 extends HttpServlet {
+public class GetMethodQuiz05 extends HttpServlet {
 	@Override
 	public void doGet(HttpServletRequest request,
 			HttpServletResponse response) throws IOException { // request로 요청하고 response로 받을 거다
