@@ -1,15 +1,10 @@
 package com.test.filter;
 
-import java.util.logging.Filter;
-import java.util.logging.LogRecord;
-
-import javax.servlet.FilterChain;
-import javax.servlet.ServletRequest;
-import javax.servlet.ServletResponse;
-import javax.servlet.annotation.WebFilter;
-
 @WebFilter("/*")
 public class CharacterEncodingFilter implements Filter { // ★ : filter는 총 2번 들어감!
+	
+	// 주석으로 내용 추가
+	
 	@Override
 	public void doPost(ServletRequest request,
 			ServletResponse response,
