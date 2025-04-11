@@ -30,6 +30,6 @@
 </body>
 
 	<div class="container">
-		<div class="display-3"><%= result %></div>
+		<div class="display-3"><%=result %></div>
 	</div>
 </html>
